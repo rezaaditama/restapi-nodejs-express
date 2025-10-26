@@ -1,0 +1,31 @@
+# File atau Folder yang tidak akan di push ke github
+
+# Dependecies
+/node_modules
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# misc
+DS_Store
+package-lock.json
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Husky hooks
+.husky/_/
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
